@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+}
+
+h1 {
+  height: 200px;
+  align-content: center;
+  border: 5px solid white;
+}
