@@ -1,0 +1,29 @@
+#tasca {
+    color:black;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    size: 50%
+}
+
+#tasca h2, #tasca svg {
+    margin: 15px;
+}
+
+svg {
+    font-size: 36px;
+}
+
+.tascaNoCompletada {
+    background-color:turquoise;   
+}
+
+.tascaCompletada {
+    text-decoration: line-through;
+    background-color: lime;
+    
+}
+
