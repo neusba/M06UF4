@@ -1,0 +1,39 @@
+img {
+    width: 200px;
+    height: 250px;
+} 
+
+button :hover {
+    background-color: rgb(114, 114, 224);
+    color: white;
+  }
+
+
+.CardPeli {
+    /* border: 1px solid white; */
+    box-shadow: 10px 5px 5px rgb(113, 186, 245);
+    border-radius: 3%;
+    padding: 1vw;
+    margin: 2vw;
+    width: 30vw;
+    height: 30vw;
+    background-color: rgba(255, 255, 255, 0.2); /* Fons semi-transparent */
+    backdrop-filter: blur(10px); /* Aplicació d'un efecte de desenfocament */
+}
+
+.imatge_peli {
+   
+    width: 200px; 
+    height: 250px; 
+    overflow: hidden; 
+}
+
+.imatge_peli img {
+   
+    object-fit: cover;
+}
+.info_peli p {
+    overflow: hidden; /* Per evitar que el text surti de la caixa */
+    text-overflow: ellipsis;
+    white-space: nowrap; /* El text no es talla quan s'arriba al final de la línia */
+}
